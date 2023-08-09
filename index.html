@@ -7,8 +7,8 @@
     <script src="eventos.js"></script>
 </head>
 <body>
-    <div id="btn" style="padding:'5px'; background:green">
-    <button onclick="alert('Hola!')" , type="button">Saludar</button>
+    <div id="btn"   style="padding:'5px'; background:green">
+    <button onclick="alert('Hola!'), event.stopPropagation()" , type="button">Saludar</button>
     </div>
 </body>
 </html>
